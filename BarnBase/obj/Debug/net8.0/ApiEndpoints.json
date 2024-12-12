@@ -1,0 +1,626 @@
+[
+  {
+    "ContainingType": "BarnBase.Controllers.AnimalController",
+    "Method": "Addanimal",
+    "RelativePath": "api/add-animal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animalDto",
+        "Type": "BarnBase.Dtos.AnimalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.AnimalController",
+    "Method": "AddAnimalDoc",
+    "RelativePath": "api/add-animal-Doc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animalDocumentDto",
+        "Type": "BarnBase.Dtos.AnimalDocumentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.AnimalController",
+    "Method": "AddAnimalImage",
+    "RelativePath": "api/add-animal-image",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animalImageDto",
+        "Type": "BarnBase.Dtos.AnimalImageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.AnimalController",
+    "Method": "AddAnimalWeight",
+    "RelativePath": "api/add-animal-weight",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "weightDto",
+        "Type": "BarnBase.Dtos.WeightDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.BreedingController",
+    "Method": "AddBreeding",
+    "RelativePath": "api/add-breeding",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "breedingDto",
+        "Type": "BarnBase.Dtos.BreedingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.FarmController",
+    "Method": "AddFarm",
+    "RelativePath": "api/add-farm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "farm",
+        "Type": "BarnBase.Models.Farm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.FixedPriceSaleController",
+    "Method": "AddFixedPriceSaleAsync",
+    "RelativePath": "api/add-favourite",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addFavouriteSaleDto",
+        "Type": "BarnBase.Dtos.AddFavouriteSaleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.FixedPriceSaleController",
+    "Method": "AddFixedPriceSale",
+    "RelativePath": "api/add-fixedpricesale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fixedPriceSaleDto",
+        "Type": "BarnBase.Dtos.FixedPriceSaleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.TaskController",
+    "Method": "AddTask",
+    "RelativePath": "api/add-task",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskDto",
+        "Type": "BarnBase.Dtos.TaskDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.UserController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/change-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changePasswordDto",
+        "Type": "BarnBase.Dtos.ChangePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.AnimalController",
+    "Method": "DeleteAnimal",
+    "RelativePath": "api/delete-animal-byid/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.FarmController",
+    "Method": "DeleteFarm",
+    "RelativePath": "api/delete-farm-byid/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.FixedPriceSaleController",
+    "Method": "DeleteFavouriteSale",
+    "RelativePath": "api/delete-favorite/{favoriteId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "favoriteId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.TaskController",
+    "Method": "DeleteTask",
+    "RelativePath": "api/delete-task/{taskId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.UserController",
+    "Method": "ForgotPasswprd",
+    "RelativePath": "api/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "forgotPasswordDto",
+        "Type": "BarnBase.Dtos.ForgotPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.AnimalController",
+    "Method": "GetAllAnimals",
+    "RelativePath": "api/get-all-animal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.BreedingController",
+    "Method": "GetAllBreeding",
+    "RelativePath": "api/get-all-breeding",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.FarmController",
+    "Method": "GetAllFarms",
+    "RelativePath": "api/get-all-farms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.FixedPriceSaleController",
+    "Method": "GetAllFixedPriceSale",
+    "RelativePath": "api/get-all-fixedpricesale",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.TaskController",
+    "Method": "GetAllTask",
+    "RelativePath": "api/get-all-task",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/get-all-users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.AnimalController",
+    "Method": "GetAnimalByGenderAgeAsync",
+    "RelativePath": "api/get-animal-age-bygender/{farmId}/{gender}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "farmId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "gender",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.AnimalController",
+    "Method": "GetAnimalByGenderAvgWeight",
+    "RelativePath": "api/get-animal-avgweight-bygender/{farmId}/{gender}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "farmId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "gender",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.AnimalController",
+    "Method": "GetAnimalsByFarmId",
+    "RelativePath": "api/get-animal-byfarmid/{farmId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "farmId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.AnimalController",
+    "Method": "GetAnimalById",
+    "RelativePath": "api/get-animal-byid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.AnimalController",
+    "Method": "GetAnimalDoc",
+    "RelativePath": "api/get-animal-Doc/{animalId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animalId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.AnimalController",
+    "Method": "GetAnimalImage",
+    "RelativePath": "api/get-animal-image/{animalId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animalId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.BreedingController",
+    "Method": "GetBreedingByCategory",
+    "RelativePath": "api/get-breeding-bycategory/{category}/userId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.BreedingController",
+    "Method": "GetBreedingByCowId",
+    "RelativePath": "api/get-breeding-bycategory/{cowId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cowId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.FarmController",
+    "Method": "GetFarmById",
+    "RelativePath": "api/get-farm-byid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.FarmController",
+    "Method": "GetFarmByUserId",
+    "RelativePath": "api/get-farm-byuserid/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.FixedPriceSaleController",
+    "Method": "GetFavoritesSaleByUserId",
+    "RelativePath": "api/get-favorites-byuserid/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.TaskController",
+    "Method": "GetTaskById",
+    "RelativePath": "api/get-task-byid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.TaskController",
+    "Method": "GetTaskByUserId",
+    "RelativePath": "api/get-task-byuserid/{userid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.AnimalController",
+    "Method": "GetWeightByAnimalId",
+    "RelativePath": "api/get-weight-byanimalid/{animalId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animalId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.AnimalController",
+    "Method": "GetWeightByMotherTagNo",
+    "RelativePath": "api/get-weight-bymothertagno/{animalTagNo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animalTagNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "logInDto",
+        "Type": "BarnBase.Dtos.LogInDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/register-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "BarnBase.Dtos.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.TaskController",
+    "Method": "UpdateTask",
+    "RelativePath": "api/update-task",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noteTask",
+        "Type": "BarnBase.Models.NoteTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BarnBase.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BarnBase.WeatherForecast, BarnBase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

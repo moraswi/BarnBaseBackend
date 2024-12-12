@@ -1,0 +1,6 @@
+@BarnBase_HostAddress = http://localhost:5164
+
+GET {{BarnBase_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
